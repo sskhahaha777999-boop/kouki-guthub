@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLだけのサンプルページ</title>
+</head>
+<body>
+    <header>
+        <h1>ようこそ！私のWebページへ</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">自己紹介</a></li>
+            <li><a href="#hobbies">趣味</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>自己紹介</h2>
+            <p>こんにちは！私はHTMLを勉強中のkoukiです。</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>趣味</h2>
+            <ul>
+                <li>散歩</li>
+                <li>ゲーム</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 私のWebページ</p>
+    </footer>
+</body>
+</html>
